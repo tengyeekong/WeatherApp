@@ -46,6 +46,8 @@ dependencies {
     implementation(Android.navigationFragment)
     implementation(Android.navigationUi)
 
+    implementation(Dependencies.maps)
+
     implementation(Testing.jUnit)
     implementation(Testing.androidJUnit)
     implementation(Testing.espresso)

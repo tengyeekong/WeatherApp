@@ -8,6 +8,12 @@ android {
 
     defaultConfig {
         minSdk = Versions.MIN_SDK
+
+        buildConfigField("String", "API_KEY", "\"c6e381d8c7ff98f0fee43775817cf6ad\"")
+    }
+
+    buildFeatures {
+        buildConfig = true
     }
 
     buildTypes {
