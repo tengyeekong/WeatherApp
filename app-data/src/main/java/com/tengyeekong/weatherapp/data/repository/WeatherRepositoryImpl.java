@@ -61,6 +61,11 @@ public class WeatherRepositoryImpl extends WeatherRepository {
     }
 
     @Override
+    public void removeAllLocations() {
+        sharedPreferences.edit().remove(KEY_LOCATIONS).apply();
+    }
+
+    @Override
     public WeatherEntity getWeather(double lat, double lon) {
         final ArrayList<String> requestData = new ArrayList<>();
         requestData.add("appid=" + BuildConfig.API_KEY);

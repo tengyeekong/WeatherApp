@@ -9,6 +9,7 @@ public abstract class WeatherRepository {
     public abstract List<String> getLocations();
     public abstract void addLocation(double lat, double lon, String name);
     public abstract void removeLocation(double lat, double lon);
+    public abstract void removeAllLocations();
     public abstract WeatherEntity getWeather(double lat, double lon);
     public abstract ForecastEntity getForecast(double lat, double lon);
 }

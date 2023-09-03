@@ -1,8 +1,21 @@
 <resources>
     <string name="action_add">Add</string>
+    <string name="action_help">Help</string>
+    <string name="action_search">Search</string>
+    <string name="action_clear_locations">Clear locations</string>
+
+    <string name="temperature">Temperature</string>
+    <string name="feels_like">Feels like</string>
+    <string name="min_temperature">Min temperature</string>
+    <string name="max_temperature">Max temperature</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="wind_degree">Wind degree</string>
 
     <!-- Strings used for fragments for navigation -->
     <string name="locations_fragment_label">Locations</string>
     <string name="add_location_fragment_label">Add Location</string>
     <string name="weather_fragment_label">Weather</string>
+    <string name="help_fragment_label">Help</string>
 </resources>

@@ -3,23 +3,23 @@ package com.tengyeekong.weatherapp.domain.entity;
 import java.io.Serializable;
 
 public class Coord implements Serializable {
-    private Integer lon;
+    private double lon;
 
-    private Integer lat;
+    private double lat;
 
-    public Integer getLon() {
+    public double getLon() {
         return this.lon;
     }
 
-    public void setLon(Integer lon) {
+    public void setLon(double lon) {
         this.lon = lon;
     }
 
-    public Integer getLat() {
+    public double getLat() {
         return this.lat;
     }
 
-    public void setLat(Integer lat) {
+    public void setLat(double lat) {
         this.lat = lat;
     }
 }

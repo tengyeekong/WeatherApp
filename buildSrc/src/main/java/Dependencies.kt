@@ -5,7 +5,7 @@ object Testing {
 }
 
 object Dependencies {
-    const val kotlinGradle = "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.10"
+    const val kotlinGradle = "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.20"
     const val maps = "com.google.android.gms:play-services-maps:18.1.0"
 }
 

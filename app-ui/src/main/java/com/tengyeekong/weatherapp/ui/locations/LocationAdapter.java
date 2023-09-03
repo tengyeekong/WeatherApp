@@ -47,7 +47,10 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.ViewHo
 
         void bind(String location) {
             binding.name.setText(location.substring(location.lastIndexOf(",") + 1));
-            binding.coordinates.setText(location.substring(0, location.lastIndexOf(",")));
+            String latLng = location
+                    .substring(0, location.lastIndexOf(","))
+                    .replace(",", ", ");
+            binding.coordinates.setText(latLng);
             binding.getRoot().setOnClickListener(v -> interaction.onItemClicked(location));
             binding.remove.setOnClickListener(v -> interaction.onItemRemoved(location));
             binding.executePendingBindings();

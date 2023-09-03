@@ -3,7 +3,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:context=".locations.LocationsFragment">
 
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_locations"
@@ -12,8 +13,7 @@
             android:clipToPadding="false"
             android:orientation="vertical"
             android:paddingVertical="8dp"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:context=".locations.LocationsFragment" />
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
